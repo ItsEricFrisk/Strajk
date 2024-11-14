@@ -15,7 +15,7 @@ This is an examination project that focuses on Typescript.
 2. Navigate to the project directory
 
    ```bash
-   cd <location
+   cd <location>/Strajk
    ```
 
 3. Install dependencies  
