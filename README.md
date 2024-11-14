@@ -9,7 +9,7 @@ This is an examination project that focuses on Typescript.
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/ItsEricFrisk/
+   git clone https://github.com/ItsEricFrisk/Strajk.git
    ```
 
 2. Navigate to the project directory
