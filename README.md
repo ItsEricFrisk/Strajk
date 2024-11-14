@@ -3,9 +3,9 @@
 This is an examination project that focuses on Typescript. 
 
 ## Preview
-![strajk-booking](https://github.com/user-attachments/assets/597f51e1-fbf4-4475-8b57-f7340d77b845)
-![strajk-errorMessages](https://github.com/user-attachments/assets/86390734-767a-431f-8f44-98e51320e27b)
-![strajk-confirm](https://github.com/user-attachments/assets/b49bd76a-b447-4f42-a3ed-d328f6c7ec54)
+![strajk-booking](https://github.com/user-attachments/assets/1141c90f-c6ac-4138-9793-65edf68daded)
+![strajk-errorMessages](https://github.com/user-attachments/assets/b375525e-81c9-4b8b-a7e4-e51dbc61e124)
+![strajk-confirm](https://github.com/user-attachments/assets/3712f0f2-a17f-46c0-8592-d4d7218ab6c5)
 
 ## Getting started
 
