@@ -11,7 +11,7 @@ export default function MenuIcon() {
       className={` ${
         menu ? "bg-primaryColor" : "bg-red-200"
       } cursor-pointer w-12 h-10 fixed top-4 left-3 flex flex-col justify-between items-start px-1 py-2 rounded-sm bg-opacity-90 transition-all duration-500 z-50`}
-      onClick={() => setToggle()}
+      onClick={(): void => setToggle()}
     >
       <motion.div
         className={`${

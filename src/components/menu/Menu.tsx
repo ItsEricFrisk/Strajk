@@ -15,7 +15,7 @@ export default function Menu() {
   };
 
   // Toggle overflow so scroll doesnt work behind menu
-  useEffect(() => {
+  useEffect((): void => {
     if (menu) {
       document.body.style.overflow = "hidden";
     } else {
@@ -40,15 +40,15 @@ export default function Menu() {
         >
           <Link
             to={"/"}
-            className="text-3xl text-primaryColor mb-5 font-bold"
-            onClick={() => setToggle()}
+            className="text-3xl text-primaryColor mb-5 font-bold hover:underline"
+            onClick={(): void => setToggle()}
           >
             BOOKING
           </Link>
           <Link
             to={"/confirmation"}
-            className="text-3xl text-primaryColor mt-5 font-bold"
-            onClick={() => setToggle()}
+            className="text-3xl text-primaryColor mt-5 font-bold hover:underline"
+            onClick={(): void => setToggle()}
           >
             CONFIRMATION
           </Link>

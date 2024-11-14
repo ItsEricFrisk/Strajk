@@ -41,7 +41,7 @@ export default function Booking() {
   );
 
   // Format the date and time
-  useEffect(() => {
+  useEffect((): void => {
     const showcaseDate: string[] = selectedDate.split("-");
     const selectedMonth: string = showcaseDate[1];
     const selectedDay: string = showcaseDate[2];
@@ -56,8 +56,8 @@ export default function Booking() {
   }, [selectedDate, selectedTime]);
 
   // Max players Allowed
-  const maxPlayersAllowed = 20;
-  const minPlayersRequired = 1;
+  const maxPlayersAllowed: number = 20;
+  const minPlayersRequired: number = 1;
 
   // Get number of players, lanes and shoes
   const [numOfPlayer, setNumOfPlayer] = useState<number | null>(
@@ -145,7 +145,7 @@ export default function Booking() {
   };
 
   // Updates the message with which shoe sizes that have not been selected
-  useEffect(() => {
+  useEffect((): void => {
     setErrorMessageShoes(
       `Please select a size for person: ${invalidShoes.map(
         (index) => index + 1

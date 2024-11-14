@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import strajkImage from "../../assets/logo.svg";
-import bowlingBall from "../../assets/BowlingBall.svg";
 import { useLoadingStore } from "../../zustand/store";
 import "../../index.css";
 
@@ -36,7 +34,7 @@ export default function Loading() {
         transition={{ duration: 0.4, delay: 3 }}
         className="px-8 py-2 text-white bg-primaryColor mt-10 rounded-sm"
         /* Set Loading to false */
-        onClick={() => setLoading()}
+        onClick={(): void => setLoading()}
       >
         Start Booking
       </motion.button>

@@ -41,7 +41,7 @@ export const toggleMenu = create<ToggleMenu>()((set) => ({
 
 // Formatted date and time
 export const useFormatDateStore = create<SelectedDateFormatted>()((set) => ({
-  formattedDate: "string",
+  formattedDate: "",
   setFormattedDate: (date: string) => set(() => ({formattedDate: date}))
 }))
 
