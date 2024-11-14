@@ -2,6 +2,11 @@
 
 This is an examination project that focuses on Typescript. 
 
+## Preview
+![strajk-booking](https://github.com/user-attachments/assets/597f51e1-fbf4-4475-8b57-f7340d77b845)
+![strajk-errorMessages](https://github.com/user-attachments/assets/86390734-767a-431f-8f44-98e51320e27b)
+![strajk-confirm](https://github.com/user-attachments/assets/b49bd76a-b447-4f42-a3ed-d328f6c7ec54)
+
 ## Getting started
 
 ### Installing
